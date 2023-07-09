@@ -1,0 +1,63 @@
+
+.projects img{
+    height: 150px;
+    width: 100%;
+    background-position: top;
+}
+
+.projects img:hover{
+    background-position: bottom;
+}
+
+.project-container{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.project-Content {
+    position:absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-top: 10%;
+    background-color: rgb(39, 63, 63);
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 2s ease;
+}
+
+.project-Content p {
+    text-align: justify;
+}
+
+.project-Content button {
+    background-color: rgb(236, 245, 238);
+    border-radius: 8px;
+    box-shadow: 2px ;
+    margin-left: 16px;
+    padding: 5px;
+    color: black;
+    padding-top: 10px;
+}
+
+.project-Content button:hover {
+    background-color: rgb(84, 122, 122);
+    color: rgb(30, 48, 30);
+}
+
+.project-container:hover .project-Content{
+    transform: translateY(0);
+}
+
+.hoverIeffect img{
+    background-size: cover;
+    transition: 2s ease;
+}
+
+.hoverIeffect:hover img{
+    transform: scale(1.1);
+}

@@ -1,0 +1,17 @@
+
+.mySkill{
+    background-color: rgba(67, 106, 138, 0.753);
+}
+
+.mySkill:hover{
+    background-color: rgba(97, 117, 117, 0.781);
+}
+
+.mySkill div{
+    transition: 4s ese;
+}
+
+.mySkill div:hover{
+    background-color: rgb(202, 175, 228);
+    transform: scale(1.1);
+}

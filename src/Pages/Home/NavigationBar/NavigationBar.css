@@ -1,0 +1,10 @@
+ul li{
+    font-size: 16px;
+    color: wheat;
+    margin-right: 16px;
+}
+ul li:hover{
+    color: white;
+    border-radius: 2px;
+    background-color: rgb(226, 190, 190);
+}

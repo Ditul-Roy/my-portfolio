@@ -1,0 +1,10 @@
+.web img{
+    width: 16rem;
+    height: 16rem;
+    transition: width 2s, height 4s;
+}
+
+.web:hover img{
+    width: 24rem;
+    height: 24rem;
+}
